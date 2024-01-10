@@ -1,0 +1,31 @@
+[
+  {
+    "id": 1,
+    "title": "롯데월드",
+    "img": "https://i.ibb.co/jZS8djr/lotteworld.png",
+    "bigImg": "https://i.ibb.co/LQGcZ7m/Big-lotteworld.jpg",
+    "hash": ["filter", "setTimeOut"],
+    "hostingUrl": "https://lotteworld-clone-team.web.app/",
+    "figmaUrl": "https://shorturl.at/isDFR",
+    "corePart": [
+      "new Date() 내장 함수를 통한 날짜구현",
+      "바닐라 자바스크립트로 슬라이드 구현"
+    ],
+    "myPart": "팀 프로젝트",
+    "devStory": "헤더와, 슬라이드, 마지막 푸터 총 세 부분을 담당하였으며, 세부페이지에서는 조건검색기능이 담긴 어트랙션 파트를 맡아 진행하였습니다. 해당 파트를 진행하는 중 3가지 조건에 만족하는 결과값을 내는 데에 어려움을 느낀 적이 있었습니다. 한번에 3가지의 조건을 필터링 하고자 하는 과정이었습니다. 해당 문제는 필터를 한번에 걸기보다는 여러 번에 걸쳐 하는 건 어떨까? 하는 생각으로 순차적으로 결과값으로 전달하는 방식으로 구현해 내었습니다. 해당 경험을 통해 필터링 된 결과값을 저장하여 다음 필터에 전달해 여러 조건값을 통한 결과값을 낼 수 있다는 것을 깨달았습니다. 또한 json으로 구현된 파일을 비동기 처리로 불러오게 된다면, 로딩됨과 동시에 데이터 값이 불러와지므로 화면에 데이터가 구현이 되지 않는 문제도 파악하게 되었습니다. 해당 문제는 async, await을 통해 비동기로 진행되는 함수들의 구동순서를 부여해 오류를 해결하는 방법도 배웠습니다. 해당 경험으로 인해 데이터를 저장하는heap, 저장 된 데이터를 불러오는 call stack, 비동기코드를 관리하는cue에 관한 부분에 대해 공부하여 더 나은 코드를 작성하는 결과를 내었습니다."
+  },
+  {
+    "id": 2,
+    "title": "현대카드",
+    "img": "https://i.ibb.co/KjH7wv2/hyndaicard.png",
+    "bigImg": "https://i.ibb.co/hytdt8V/Big-hyundai.jpg",
+    "hash": ["Math.random", "setTimeOut"],
+    "hostingUrl": "https://hyundaicard-clone.web.app/",
+    "corePart": [
+      "iframe으로 화면 분기",
+      "바닐라 자바스크립트로 슬라이드 구현"
+    ],
+    "myPart": "개인 프로젝트",
+    "devStory": "아이프레임을 통해 로그인 탭메뉴를 구성하였으며, 해당 부분을 구현하면서 어려웠던 점은 파트가 화면에 보였을 때 로그인 카운트다운을 시작해야한다는 점이었습니다. 저는 이 부분을 로딩이 되었다면 실행해라 라는 명령어를 추가하여 해결 하였습니다. 해당 경험을 통해 eventListener에 load 라는 명령어를 작동원리를 파악하여 사용했습니다.또한 로그인시 7자리로 이루어진 랜덤 로그인번호를 생성하는데 이 또한 랜덤함수를 사용하여 구현하였습니다."
+  }
+]

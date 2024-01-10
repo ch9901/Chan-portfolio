@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "title": "슬라이더",
+    "img": "https://i.ibb.co/HDLqf1J/slider.jpg",
+    "bigImg": "https://i.ibb.co/DgZW0nF/Big-slider.png",
+    "hash": ["framer motion", "TypeScript"],
+    "hostingUrl": "https://example-slide-2b8a5.web.app/",
+    "corePart": ["Framer motion을 활용한 슬라이더구현"],
+    "myPart": "개인 프로젝트",
+    "devStory": "컴포넌트의 애니메이션을 손쉽게 구성하도록 도와주는 라이브러리인 Framer motion을 활용하여 기존 리액트에서 구현하기 번거로웠던 슬라이더를 손쉽게 구현했습니다."
+  },
+  {
+    "id": 2,
+    "title": "모달",
+    "img": "https://i.ibb.co/LRyTwVj/modal.png",
+    "bigImg": "https://i.ibb.co/4W2n4Rk/Big-modal.png",
+    "hash": ["framer motion", "TypeScript"],
+    "hostingUrl": "https://example-modal.web.app/",
+    "corePart": ["Framer motion을 활용한 모달창 구현"],
+    "myPart": "개인 프로젝트",
+    "devStory": "컴포넌트의 애니메이션을 손쉽게 구성하도록 도와주는 라이브러리인 Framer motion을 활용하여 기존 리액트에서 구현하기 번거로웠던 모달창을 손쉽게 구현했습니다. 모달창을 눌렀을 때 해당 박스의 정보가 나오게하기 위해 동일한 아이디를 부여하여 클릭한 박스가 모달창으로 나오는 듯한 효과를 부여하였습니다."
+  }
+]

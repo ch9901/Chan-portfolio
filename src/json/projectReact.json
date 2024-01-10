@@ -1,0 +1,99 @@
+[
+  {
+    "id": 1,
+    "title": "노래 뭐 부르지?",
+    "img": "https://i.ibb.co/1v5ZXVT/what-ISing.png",
+    "bigImg": "https://i.ibb.co/yXnV7DL/Big-whatising.png",
+    "hash": ["CRUD", "Recoil"],
+    "hostingUrl": "https://whatis-68904.web.app/",
+    "corePart": [
+      "Create, Read, Update, Delete 기능구현",
+      "local storage를 통해 사이트를 새로고침 데이터를 저장하여 저장된 데이터를 통해 화면구현"
+    ],
+    "myPart": "개인 프로젝트",
+    "devStory": "Recoil, localStorage로 개인프로젝트 형식으로 CRUD를 구현한 프로젝트입니다. spread 연산자를 활용하여 기존 데이터를 유지하며 노래를 추가하였습니다. 업데이트 기능은 각 요소에 아이디를 부여하여 클릭한 요소의 값을 대치시켰고, 삭제기능은 filter함수를 활용하여 구현 해 내었습니다."
+  },
+  {
+    "id": 2,
+    "title": "JAJU 쇼핑몰",
+    "img": "https://i.ibb.co/FxDw1d0/jaju.png",
+    "bigImg": "https://i.ibb.co/xSqqTqp/Big-JAJU.jpg",
+    "hash": ["Redux Thunk", "Router"],
+    "hostingUrl": "https://jaju-shoppingmall.web.app/",
+    "corePart": [
+      "parameter값을 이용한 검색기능",
+      "API 데이터를 활용 한 페이지구성",
+      "private router 활용"
+    ],
+    "myPart": "개인 프로젝트",
+    "devStory": "검색기능을 구현 할 때 url에 query값으로 전달하여 해당하는 상품을 가져오는 방식을 진행하는데에 있어 어려움을 느꼈습니다. 해당 문제는 get 메서드, useEffect를 활용하여 전달한 query 값이 바뀔때 마다 데이터를 새로 가져오는 방식으로 해결하였습니다. 리액트를 배우고 혼자서 처음 진행한 프로젝트여서 아쉬움이 많이 남았지만 당시의 지식과, 활용 할 수 있는 수단을 활용하여 깔끔한 UI를 가지고, 원하는 기능을 담은 사이트를 만들어내어 의의가 깊은 프로젝트 였습니다."
+  },
+  {
+    "id": 3,
+    "title": "NETFLIX",
+    "img": "https://i.ibb.co/92Xs4kR/netflix.png",
+    "bigImg": "https://i.ibb.co/z8J8ymH/Big-netflix.png",
+    "hash": ["framer motion", "TypeScript", "Recoil"],
+    "hostingUrl": "https://netfli-31b5e.web.app/",
+    "corePart": [
+      "Framer motion을 활용한 모달구현",
+      "useParams hook을 사용하여 파라미터 값으로 파생 된 특정데이터를 API에서 끌어와 화면구현",
+      "Recoil을 활용하여 상태변화 관리"
+    ],
+    "myPart": "개인 프로젝트",
+    "devStory": "TMDB의 API를 활용하여 화면을 구현하였습니다. 각 영화이미지를 클릭하면 해당 영화의 고유한 아이디값을 파라미터로 전달하였고, 해당 값으로 영화의 세부 정보를 찾아와 모달로 정보표기를 구현하였습니다."
+  },
+  {
+    "id": 4,
+    "title": "Kanban-Board",
+    "img": "https://i.ibb.co/mXCLGs9/kanban.png",
+    "bigImg": "https://i.ibb.co/gv0qG66/Big-kanban.png",
+    "hostingUrl": "https://kanban-2abf5.web.app/",
+    "figmaUrl": "",
+    "hash": ["Recoil", "TypeScript"],
+    "corePart": [
+      "Recoil을 사용하여 상태변화 관리",
+      "beautiful DnD를 활용하여 드래그 앤 드랍기능 구현"
+    ],
+    "myPart": "개인 프로젝트",
+    "devStory": "Beautiful DnD를 활용하여 드래그 앤 드랍 기능을 구현하였습니다. 해당 기능을 통해 칸반보드를 구현하며 드래그 앤 드랍 기능을 습득하였습니다. 또한 Recoil을 통해 각 카테고리 별로 데이터를 관리하였습니다."
+  },
+  {
+    "id": 5,
+    "title": "나만의 과자 MBTI찾기",
+    "img": "https://i.ibb.co/0npQFHB/mbti.png",
+    "bigImg": "https://i.ibb.co/Zmpk52Q/Big-spti.png",
+    "hash": ["Styled component", "Router"],
+    "hostingUrl": "https://spti-snackmbti.web.app/",
+    "corePart": [
+      "알고리즘을 통해 사용자가 선택한 답안에 따라 결과도출",
+      "결과가 도출되는 화면렌더링 시 setTimeOut을 활용",
+      "reduce를 활용하여 각 결과의 결과 값 도출",
+      "createSearchParams를 활용하여 결과값을 파라미터 값에 전달 "
+    ],
+    "myPart": "개인 프로젝트",
+    "devStory": "요즘 유행중인 MBTI의 문제를 가지고와서 알고리즘을 설계했습니다. reduce를 통해 도출 된 결과값을 네문자로 합쳐서 createSearchParams를 활용하여 결과값을 파라미터에 전달하였습니다. 전달 된 결과값은 result 페이지에서 파라미터 값을 가져와 결과값을 화면에 구현하는 방식으로 진행했습니다."
+  },
+  {
+    "id": 6,
+    "title": "Web/App 캐치테이블",
+    "img": "https://i.ibb.co/jGsJmtX/catchtable.png",
+    "bigImg": "https://i.ibb.co/CMwLDHQ/Big-catchtable.jpg",
+    "hash": ["Bootstrap", "Carousel"],
+    "hostingUrl": "https://catchtable-10fac.web.app/",
+    "corePart": ["Carousel, Bootstrap을 활용하여 슬라이드, 탭 화면구성"],
+    "myPart": "개인 프로젝트",
+    "devStory": "React.js를 일주일 배우고 진행 한 프로젝트입니다. React에 관한 지식이 부족했지만, 최대한 배운 지식을 활용하여 화면을 구성하려 노력하였습니다. 당시  탭메뉴를 구성하는데에있어 Route 개념을 학습하지 못했던터라 Bootstrap을 통해 진행했지만 추후 탭메뉴를 직접 구현하여 리패키징 계획이 있습니다."
+  },
+  {
+    "id": 7,
+    "title": "Weather API",
+    "img": "https://i.ibb.co/Hxf0dzs/weatherapi.png",
+    "bigImg": "https://i.ibb.co/WgQ6t5F/Big-weather.png",
+    "hash": ["Redux", "API"],
+    "hostingUrl": "https://weatherapi-529f2.web.app/",
+    "corePart": ["arousel, Bootstrap을 활용하여 슬라이드, 탭 화면구성"],
+    "myPart": "개인 프로젝트",
+    "devStory": "Weather Api를 기반으로 진행 한 프로젝트 입니다. 해당 프로젝트에서는 날씨값이 변함에 따라 배경이미지가 달라지도록 설계하였습니다. 또한 각 나라를 클릭했을 시 해당 나라의 현 날씨정보를 알려주는 기능도 추가하여 조금 더 다채로운 날씨알리미를 만들고자 하였습니다."
+  }
+]
