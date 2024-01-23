@@ -51,7 +51,7 @@ const List = styled.li`
 `;
 
 const Header = () => {
-  const menuArr = ["Home", "Project", "Example", "Aboutme", "Contact"];
+  const menuArr = ["Home", "Project", "Example", "Etc", "Aboutme", "Contact"];
   return (
     <HeaderWrap>
       <HeaderLeft as={"a"} href="/">
