@@ -3,9 +3,11 @@ import styled from "styled-components";
 import { AnimatePresence, motion, useScroll } from "framer-motion";
 import Share from "./Share";
 import KGaurd from "./KGaurd";
+import Backspace from "./Backspace";
+import Gong from "./Gong";
 
 const CardWrap = styled(motion.div)`
-  width: 40%;
+  width: 38%;
   height: 43rem;
   border-radius: 2rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -14,6 +16,8 @@ const CardWrap = styled(motion.div)`
   justify-content: flex-start;
   transition: 0.3s;
   position: relative;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
   &::before {
     content: "카드를 누르시면 작업물을 보실 수 있습니다.";
     position: absolute;
@@ -114,11 +118,10 @@ const EtcCard = ({ bgimg, projectTit, icon }: IProps) => {
   const modalClose = () => {
     setClickId(null);
   };
-
-  console.log(clickId);
   return (
     <>
       <CardWrap
+      className="cardWrap"
         onClick={showDetail}
         data-target={projectTit}
         layoutId={projectTit}
@@ -126,7 +129,7 @@ const EtcCard = ({ bgimg, projectTit, icon }: IProps) => {
         <ImgWrap>
           <img src={bgimg} alt={projectTit} />
         </ImgWrap>
-        <InfoWrap>
+        <InfoWrap className="infoWrap">
           <img src={icon} alt={projectTit} />
           <ProjectTit>{projectTit}</ProjectTit>
         </InfoWrap>
@@ -139,8 +142,8 @@ const EtcCard = ({ bgimg, projectTit, icon }: IProps) => {
               <BigContent layoutId={projectTit} style={{ top: 120 }}>
                 {clickId === "공유누리" && <Share />}
                 {clickId === "K-Guard" && <KGaurd />}
-                {clickId === "ADA - BackSpace" && <div>ADA - BackSpace</div>}
-                {clickId === "0-生" && <div>0-生</div>}
+                {clickId === "ADA - BackSpace" && <Backspace />}
+                {clickId === "0-生" && <Gong />}
               </BigContent>
             </Overlay>
           </>

@@ -254,6 +254,16 @@ body {
   .urls{
     bottom:10%;
   }
+  .etcWrap{
+    flex-direction:column;
+    align-items:center;  
+  }
+  .cardWrap{
+    width:90% !important;
+  }
+  .infoWrap{
+    
+  }
 }
 @media all and (max-width: 965px) {
   .bigContent{

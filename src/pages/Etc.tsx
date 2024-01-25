@@ -11,7 +11,8 @@ const EtcWrap = styled(ProjectWrap)`
   border-radius: 0rem;
   border: 0.2rem solid #000;
   margin-top: 8rem;
-  padding: 8rem 0rem;
+  padding: 8rem 1rem;
+  display: flex;
 `;
 
 const Etc = () => {
@@ -23,7 +24,7 @@ const Etc = () => {
           "아래의 작업물은 디자인 작업물 입니다. 각 카드를 클릭하시면 해당 프로젝트의 디테일을 보실 수 있습니다."
         }
       />
-      <EtcWrap>
+      <EtcWrap className="etcWrap">
         {etcjson.map((item) => (
           <EtcCard
             key={item.id}
